@@ -4,10 +4,10 @@ from domicilio import Domicilio
 if __name__ == '__main__':
 
     # Persona 1 instancia con el contructor que recibe parametros
-    p1 = Persona("Juanita", "Perez", 23)
+    p1 = Persona("Nicolás", "Panella", 23)
     print("Persona1{", p1, "}")
 
-    d1 = Domicilio("Aristides", 756)
+    d1 = Domicilio("Bombal", 918)
     p1.domicilio = d1
     print("Persona1{", p1, "}")
 
@@ -16,11 +16,11 @@ if __name__ == '__main__':
     p2 = Persona()
     p2.nombre = "Maria"
     p2.apellido = "Lopez"
-    p2.edad = 34
+    p2.edad = 38
     print("Persona2{", p2, "}")
 
     d2 = Domicilio()
-    d2.calle = "Ponce"
-    d2.numero = 243
+    d2.calle = "Adolfo Calle"
+    d2.numero = 123
     p2.domicilio = d2
     print("Persona2{", p2, "}")
